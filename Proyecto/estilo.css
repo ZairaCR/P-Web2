@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    position: relative;
+    background-color: #e9d0f3;
+
+}
+
+
+.baner {
+    height: 80px;
+    width: 80%;
+    position: relative;
+    margin-top: 10px;
+    margin-left: 100px;
+    border: 5px solid bisque;
+    font: 2em Courier New;
+    text-align: center;
+}
+
+.opciones{
+    background-color: #cde0b5;
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+
+}
+
+.botones{
+    background-color: #d9a0f0;
+    border: none;
+    color: white ;
+    padding: 10px 20px;
+    cursor: pointer;
+    width: 200px;
+    height: 60%;
+    margin-left: 200px;
+    margin-top: 20px;
+    text-align: center;
+    
+    
+}
+
+.botones:hover {
+    background-color: #e9d0f3;
+}
+
+.archivo{
+    display: none;
+    margin-top: 15px;
+    margin-left: 100px;
+    position: relative;
+}
+.Tabla{
+    width: 80%;
+    margin-left: 100px;
+    margin-top: 15px;
+    background-color:#cde0b5;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    font: 1em Courier New;
+}
+
+th, td{
+    border: 1px solid whitesmoke;
+    text-align: left;
+    padding: 10px;
+}
+
+th{
+    background-color: bisque;
+}
